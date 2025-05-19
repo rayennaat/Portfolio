@@ -292,7 +292,18 @@ a, button, .btn {
 
 .skill-item span {
   font-weight: 500;
-  color: white;
+  color: var(--text-primary); /* Now adapts to theme */
+}
+
+/* If you need to specifically style the technology names (not logos) */
+.skill-item > span:not(.custom-logo) {
+  color: var(--text-primary);
+}
+
+/* For your custom logos (Dj/TS/Tw) */
+.custom-logo {
+  color: white !important; /* Keep logo text white */
+  /* Other existing logo styles... */
 }
 @keyframes fadeInUp {
   from {

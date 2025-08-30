@@ -287,44 +287,47 @@
     
     <div class="contact-content">
       <!-- Contact Form -->
-      <form class="contact-form">
-        <div class="form-group">
-          <input type="text" id="name" required>
-          <label for="name">Your Name</label>
-        </div>
-        
-        <div class="form-group">
-          <input type="email" id="email" required>
-          <label for="email">Email</label>
-        </div>
-        
-        <div class="form-group">
-          <textarea id="message" rows="4" required></textarea>
-          <label for="message">Your Idea</label>
-        </div>
-        
-        <button type="submit" class="btn btn-large">
-          Send Message <i class="fas fa-paper-plane"></i>
-        </button>
-      </form>
+      <form action="https://formspree.io/f/mjkeywya" method="POST" class="contact-form">
+  <div class="form-group">
+    <input type="text" name="name" required>
+    <label for="name">Your Name</label>
+  </div>
+
+  <div class="form-group">
+    <input type="email" name="email" required>
+    <label for="email">Email</label>
+  </div>
+
+  <div class="form-group">
+    <textarea name="message" rows="4" required></textarea>
+    <label for="message">Your Idea</label>
+  </div>
+
+  <button type="submit" class="btn btn-large">
+    Send Message <i class="fas fa-paper-plane"></i>
+  </button>
+</form>
+
       
       <!-- Contact Info -->
       <div class="contact-info">
-        <h3>Or find me here</h3>
-        <div class="social-links">
-          <a href="https://github.com/rayennaat" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="www.linkedin.com/in/rayennaat" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://www.instagram.com/its.h1ydra.btw/" aria-label="instagram">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="rayen.enaate@gmail.com" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </div>
+  <h3>Or find me here</h3>
+  <div class="social-links">
+    <a href="https://github.com/rayennaat" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/rayennaat" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.instagram.com/its.h1ydra.btw/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="mailto:rayen.enaate@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</div>
+
         
         <div class="fun-fact">
           <p><i class="fas fa-clock"></i> Usually respond within 24 hours</p>
